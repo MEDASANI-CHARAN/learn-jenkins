@@ -20,7 +20,7 @@ pipeline {
      environment {
         DEPLOY_TO = 'production' 
         GREETING = 'Good Morning'
-        }.
+        }
     stages {
         stage('Build') {
             steps {
