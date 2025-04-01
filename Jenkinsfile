@@ -46,7 +46,7 @@ pipeline {
 
                 echo "Password: ${params.PASSWORD}"
 
-                echo "triggred"
+                echo "triggred again"
             }
         }
     }
