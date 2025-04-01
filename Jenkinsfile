@@ -31,7 +31,6 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'echo this is test'
-                sh 'sleep 10'
             }
         }
         stage('Deploy') {
@@ -59,8 +58,8 @@ pipeline {
                 echo 'I will always say Hello again!'
             }
             sucess { 
-                echo 'I will when when pipeline sucess!'
+                echo 'I will when when pipeline sucess'
             }
-    }
+         }
     }
 }
