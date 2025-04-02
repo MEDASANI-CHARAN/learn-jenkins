@@ -53,7 +53,8 @@ pipeline {
                 echo "triggred again"
             } 
         }
-        post { 
+    }
+    post { 
             always { 
                 echo 'I will always say Hello again!'
             }
@@ -61,5 +62,4 @@ pipeline {
                 echo 'I will when when pipeline sucess'
             }
          }
-    }
 }
