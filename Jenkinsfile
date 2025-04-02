@@ -51,7 +51,7 @@ pipeline {
                 echo "Password: ${params.PASSWORD}"
 
                 echo "triggred again"
-            }
+            } 
         }
         // post { 
         //     always { 
