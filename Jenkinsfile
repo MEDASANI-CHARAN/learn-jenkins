@@ -52,6 +52,6 @@ pipeline {
 
                 echo "triggred again"
             }
-        }
+         }
     }
 }
