@@ -58,7 +58,7 @@ pipeline {
             always { 
                 echo 'I will always say Hello again!'
             }
-            sucess { 
+            success { 
                 echo 'I will when when pipeline sucess'
             }
         }
