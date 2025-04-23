@@ -7,6 +7,10 @@ pipeline {
         timeout(time: 15, unit: 'MINUTES')
          disableConcurrentBuilds() 
     }
+    environment {
+        DEPLOY_TO = 'production'
+        GREETING = 'Good morning'
+    }
     parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
 
